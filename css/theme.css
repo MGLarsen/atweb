@@ -1,0 +1,143 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/******************* 
+	  GENERELT
+*******************/
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica Neue, Helvetica, Trebuchet MS, Arial, Verdana, Tahoma, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 0;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+#wrap {
+	position: relative;
+	min-height: 100%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 160px; /* – #main { padding-bottom: XXX ; } */
+}
+	#main {
+		padding-bottom: 160px;
+	}
+
+/******************************
+Intro Splash
+******************************/
+
+.slider {
+	background-color: #cdcdcd;
+	display: block;
+	height: 100%;
+	position: relative;
+	transition: all .8s ease;
+	-o-transition: all .8s ease;
+	-moz-transition: all .8s ease;
+	-webkit-transition: all .8s ease;
+	overflow: hidden;
+}
+	.hide-intro {
+		height: 0%;
+	}
+
+.mere {
+	display: block;
+	z-index: 99999;
+	position: absolute;
+	bottom: 2%;
+	left: 47%;
+	width: 87px;
+	height: 87px;
+	background: url('gfx/mere.png') no-repeat;
+	color: transparent;
+}
+
+	.mere:hover {
+		cursor: pointer;
+	}
+
+/******************************
+Menu
+******************************/
+
+	/*nav {
+		display: block;
+		background-color: red;
+		height: 30px;
+	}
+
+	nav li {
+		display: inline-block;
+		float: left;
+	}
+
+		nav li ul {
+			display: none;
+		}*/
+
+
+
+/******************************
+Blog
+******************************/
+.blog_cat {
+	border-bottom: 1px solid black;
+	margin: 0 0 2% 0;
+}
+
+.blog_cat h1 {
+	margin: 0 0 1% 0;
+}
+
+#comments {
+	margin: 5% 0 0 0;
+}
+
+.comment-author img {
+	width: 64px;
+	height: 64px;
+	margin: 0 2% 0 0;
+	display: none;
+}
+
+#respond {
+	margin: 2% 0 0 0;
+}
+
+.comment-reply-link {
+	margin: 0 0 2% 0;
+}
+
+/******************************
+Sidebar
+******************************/
+.sidebar {
+	padding: 2%;
+	margin: 0 0 5% 0;
+}
+
+.sidebar h5 {
+	margin: 0;
+}
+
+.sidebar:last-child {
+	margin: 0;
+}
