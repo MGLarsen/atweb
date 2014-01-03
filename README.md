@@ -1,4 +1,4 @@
 atweb
 =====
 
-Std theme atweb
+Std WP theme atweb
